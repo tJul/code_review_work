@@ -1,17 +1,17 @@
 public class Calculator {
     public int add(int a, int b){
-        //TODO inser your realisation in method add
+        return x+y;
     }
     public int dif(int a, int b){
-        //TODO inser your realisation in method dif
+        return x-y;
     }
-    public int div(int a, int b){
-        //TODO inser your realisation in method div
+    public int div(int a, int b) {
+        return x / y;
     }
     public int times(int a, int b){
-        //TODO inser your realisation in method times
+        return x*y;
     }
-    public int solver(){
-        //TODO inser your realisation in method solver
+    public int solver(int a, int b){ //уравнение вида ах + b =0;
+        return div (-b, a);
     }
 }
