@@ -11,7 +11,7 @@ public class Calculator {
     public int times(int a, int b){
         return a *b;
     }
-    public int solver(){ // (1/a)*x +b=0
+    public int solver(){ // (1/a)*x+b=0
         return (times(-b, a));
     }
 }
