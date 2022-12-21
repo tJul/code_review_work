@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
-
     @Test
     void add() {
         Calculator calc = new Calculator();
@@ -33,4 +32,5 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(1, calc.solver(1,-1));
     }
+
 }
