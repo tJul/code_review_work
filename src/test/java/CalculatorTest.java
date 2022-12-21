@@ -21,5 +21,5 @@ class CalculatorTest {
     }
 
     @Test
-    void solver() {assertEquals(2, calculator.solver(1, -2));}
+    void solver() {assertEquals(2, calculator.solver(1,-2));}
 }

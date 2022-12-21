@@ -12,6 +12,6 @@ public class Calculator {
         return a *b;
     }
     public int solver(){ // (1/a)*x+b=0
-        return (times(-b,a));
+        return (times(-b, a));
     }
 }
